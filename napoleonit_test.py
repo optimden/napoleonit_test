@@ -21,4 +21,4 @@ class Solution:
         result = sum(self.arabic)
         if result < 1 or result > 3999:
             raise Exception("Arabic number is out of defined range.")
-        return sum(self.arabic)
+        return result
